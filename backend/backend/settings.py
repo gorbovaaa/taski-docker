@@ -1,5 +1,6 @@
-from pathlib import Path
+"""Для работы с файловой системой."""
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
